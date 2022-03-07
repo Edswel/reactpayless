@@ -18,4 +18,29 @@ header a {
   text-decoration: none;
 }
 
+main {
+  padding: 1rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  /* border: 1px solid #404040; */
+  background-color: #f0f0f0;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
 /* #ffe000 */
