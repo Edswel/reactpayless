@@ -21,7 +21,7 @@ function App() {
                     <p>{product.name}</p>
                   </a>
                   <p><strong>$</strong><strong>{product.price}</strong></p>
-                  <button>Add to Cart</button>
+                  <button><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                 </div>
               </div>
             ))
