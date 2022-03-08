@@ -47,6 +47,18 @@ const data = {
             rating: 4,
             numReviews: 9,
             description: "Nice Fitted Dress"
+        },
+        {
+            name: "Cap",
+            slug: "fancy-cap",
+            category: "cap",
+            image: "/images/pic5.jpg",
+            price: 50,
+            countInStock: 25,
+            brand: "D & G",
+            rating: 4.5,
+            numReviews: 3,
+            description: "Premium Cap"
         }
     ]
 }
