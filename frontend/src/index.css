@@ -19,6 +19,12 @@ main {
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #ffe000;
+  color: #000;
+  border: none;
+}
+
 .products {
   display: flex;
   justify-content: center;
@@ -26,23 +32,14 @@ main {
 }
 
 .product {
-  /* border: 1px solid #404040; */
   background-color: #f0f0f0;
-  margin: 1rem;
 }
 
-.product img {
-  width: 100%;
-  max-width: 400px;
-}
-
-.product-info {
-  padding: 1rem;
+.rating span {
+  color: #ffe000;
 }
 
 .footer-background {
   background-color: #e8e8e8;
   padding: 1rem;
 }
-
-/* #ffe000 */
