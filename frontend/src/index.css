@@ -43,3 +43,7 @@ main {
   background-color: #e8e8e8;
   padding: 1rem;
 }
+
+.img-large {
+  max-width: 100%;
+}

@@ -59,6 +59,18 @@ const data = {
             rating: 4.5,
             numReviews: 3,
             description: "Premium Cap"
+        },
+        {
+            name: "Men's Casual",
+            slug: "casual-casual",
+            category: "t-shirt",
+            image: "/images/pic6.jpg",
+            price: 5,
+            countInStock: 0,
+            brand: "Lacoste",
+            rating: 4,
+            numReviews: 13,
+            description: "Medium Grade"
         }
     ]
 }
