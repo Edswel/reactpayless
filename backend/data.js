@@ -1,7 +1,7 @@
 const data = {
     products: [
         {
-            _id: "1",
+            // _id: "1",
             name: "Air Jordan",
             slug: "jordan-sneakers",
             category: "sneakers",
@@ -14,7 +14,7 @@ const data = {
             description: "High Quality Sneakers"
         },
         {
-            _id: "2",
+            // _id: "2",
             name: "Red Bottoms",
             slug: "heels-shoes",
             category: "shoes",
@@ -27,7 +27,7 @@ const data = {
             description: "Good Quality Shoes"
         },
         {
-            _id: "3",
+            // _id: "3",
             name: "Men's Business Suit",
             slug: "suits",
             category: "suits",
@@ -40,7 +40,7 @@ const data = {
             description: "High Quality Suit"
         },
         {
-            _id: "4",
+            // _id: "4",
             name: "Women's Dress",
             slug: "fitted-dress",
             category: "dress",
@@ -53,7 +53,7 @@ const data = {
             description: "Nice Fitted Dress"
         },
         {
-            _id: "5",
+            // _id: "5",
             name: "Cap",
             slug: "fancy-cap",
             category: "cap",
@@ -66,7 +66,7 @@ const data = {
             description: "Premium Cap"
         },
         {
-            _id: "6",
+            // _id: "6",
             name: "Men's Casual",
             slug: "casual-casual",
             category: "t-shirt",
