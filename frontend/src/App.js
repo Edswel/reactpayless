@@ -47,7 +47,7 @@ function App() {
               <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className="me-auto justify-content-end">
                   <Link to='/cart' className='nav-link'>
-                    Cart
+                    <i class="fas fa-shopping-cart"></i> Cart
                     {cart.cartItems.length > 0 && (
                       <Badge pill bg='warning'>
                         {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}

@@ -25,6 +25,11 @@ main {
   border: none;
 }
 
+.btn-primary:hover {
+  background-color: #f3de41;
+  color: #000;
+}
+
 .products {
   display: flex;
   justify-content: center;

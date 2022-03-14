@@ -43,8 +43,8 @@ function HomeScreen() {
         <div><Helmet>
             <title>PayLess</title>
         </Helmet>
-            <h1>Featured Products</h1>
-            <div className="products">
+            {/* <h1>Featured Products</h1> */}
+            <div className="products mt-4">
                 {
                     loading ? (<LoadingBox />)
                         :
