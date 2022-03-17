@@ -100,3 +100,7 @@ main {
 .sidebar-header {
   color: #0457c8;
 }
+
+.text-bold {
+  font-weight: bold;
+}
