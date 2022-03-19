@@ -7,7 +7,6 @@ import { getError } from '../utils';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { LinkContainer } from 'react-router-bootstrap';
-// import LinkContainer from 'react-router-bootstrap/LinkContainer';
 import Button from 'react-bootstrap/Button';
 import Rating from '../components/Rating';
 import LoadingBox from '../components/LoadingBox';
@@ -175,7 +174,7 @@ function SearchScreen() {
                             ))}
                         </ul>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3>Avg. Customer Review</h3>
                         <ul>
                             {ratings.map((r) => (
@@ -197,7 +196,7 @@ function SearchScreen() {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </Col>
                 <Col md={9}>
                     {loading ? (

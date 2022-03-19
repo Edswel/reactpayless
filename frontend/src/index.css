@@ -104,3 +104,7 @@ main {
 .text-bold {
   font-weight: bold;
 }
+
+.pill-color {
+  background-color: #ffe000;
+}
