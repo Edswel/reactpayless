@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 import MessageBox from '../components/MessageBox';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { toast } from 'react-toastify';
 
 function CartScreen() {
     const navigate = useNavigate();
@@ -20,7 +21,8 @@ function CartScreen() {
     const updateCartHandler = async (item, quantity) => {
         const { data } = await axios.get(`/api/products/${item._id}`);
         if (data.countInStock < quantity) {
-            window.alert("Sorry, this item is currently out of stock!!!");
+            toast.error("Sorry, this item is currently out of stock!");
+            // window.alert("Sorry, this item is currently out of stock!!!");
             return;
         }
         ctxDispatch({ type: "CART_ADD_ITEM", payload: { ...item, quantity } });
@@ -44,7 +46,7 @@ function CartScreen() {
                 <Col md={8}>
                     {cartItems.length === 0 ? (
                         <MessageBox>
-                            Cart is empty. <Link to="/">Go Shopping...</Link>
+                            Cart is empty. <Link to="/">Go Shopping</Link>
                         </MessageBox>
                     ) : (
                         <ListGroup>

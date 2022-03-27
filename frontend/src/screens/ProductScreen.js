@@ -13,6 +13,7 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { getError } from '../utils';
 import { Store } from '../Store';
+import { toast } from 'react-toastify';
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -57,7 +58,8 @@ function ProductScreen() {
         const quantity = existItem ? existItem.quantity + 1 : 1;
         const { data } = await axios.get(`/api/products/${product._id}`);
         if (data.countInStock < quantity) {
-            window.alert("Sorry, this item is currently out of stock!!!");
+            toast.error("Sorry, this item is currently out of stock!");
+            // window.alert("Sorry, this item is currently out of stock!!!");
             return;
         }
         ctxDispatch({ type: "CART_ADD_ITEM", payload: { ...product, quantity } });
